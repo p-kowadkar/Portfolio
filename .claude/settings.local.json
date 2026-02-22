@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"D:/My-Projects/Portfolio/pkowadkar\" && npm create vite@latest frontend -- --template react 2>&1)",
+      "Bash(cd \"D:/My-Projects/Portfolio/pkowadkar/frontend\" && npm install react@^18.3.0 react-dom@^18.3.0 framer-motion@^11.0.0 react-rnd@^10.4.1 lucide-react@^0.263.1 2>&1)",
+      "Bash(cd \"D:/My-Projects/Portfolio/pkowadkar/frontend\" && npm install -D tailwindcss@^3.4.0 postcss autoprefixer 2>&1)",
+      "Bash(cd \"D:/My-Projects/Portfolio/pkowadkar/frontend\" && npx tailwindcss init -p 2>&1)",
+      "Bash(cd \"D:/My-Projects/Portfolio/pkowadkar/frontend\" && mkdir -p public/sounds && cp \"D:/My-Projects/Portfolio/p-kowadkar.github.io/static/favicon.svg\" public/favicon.svg && cp \"D:/My-Projects/Portfolio/p-kowadkar.github.io/static/background.mp3\" public/sounds/intro.mp3 && cp \"D:/My-Projects/Portfolio/p-kowadkar.github.io/static/Data/Pranav_Kowadkar_Resume.pdf\" public/resume.pdf && mkdir -p src/components/Intro src/components/Desktop src/components/Dock src/components/Window src/components/DesktopWidgets src/components/apps/Projects src/components/apps/ChatPK src/components/apps/VideoCall src/components/apps/Messages src/components/apps/Browser src/components/apps/Telegram src/data src/hooks 2>&1)",
+      "Bash(cd \"D:/My-Projects/Portfolio/pkowadkar/frontend\" && npx vite build 2>&1)",
+      "mcp__MCP_DOCKER__browser_navigate",
+      "Bash(grep:*)",
+      "mcp__MCP_DOCKER__browser_wait_for",
+      "mcp__MCP_DOCKER__browser_click",
+      "mcp__MCP_DOCKER__browser_take_screenshot",
+      "mcp__MCP_DOCKER__browser_snapshot"
+    ]
+  }
+}
